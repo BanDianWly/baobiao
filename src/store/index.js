@@ -19,8 +19,6 @@ export default new Vuex.Store({
       state.cartData=cartData;
       state.totalMount=totalMount;
       state.totalPrice=totalPrice;
-
-
     }
   },
   actions: {

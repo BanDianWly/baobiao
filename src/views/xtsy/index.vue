@@ -1,81 +1,99 @@
 <template>
-  <div>
-    <div class="con_right">
-      <div class="con_title">
-        <div class="stsy">
-          <span>系统首页</span>
-        </div>
+  <div class="f1">
+    <div class="f2">
+      <div class="f4">
+        <img src="../../assets/b5.png" alt="" />
       </div>
-      <div class="con_con">
-        <div class="con_con_top">
-          <div class="top_left">
-            <div class="tu"><img src="../../assets/1.png" alt="" /></div>
-            <div class="zi">
-              <p>登录账号：1436251959</p>
-              <p>姓名：111</p>
-              <p>上次登录时间：2021年10月23日13:56:11</p>
-            </div>
-          </div>
-        </div>
+      <div class="f5">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
+      </div>
+
+      <div class="f5">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
+      </div>
+      <div class="f5">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
+      </div>
+      <div class="f4" style="margin-top: 13px;">
+        <img src="../../assets/b5.png" />
+      </div>
+      <div class="f5" style="margin-top: 13px;">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
+      </div>
+
+      <div class="f5" style="margin-top: 13px;">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
+      </div>
+      <div class="f5" style="margin-top: 13px;">
+        <p id="f6"><img src="../../assets/b6.png" /></p>
+        <p id="f7" style="margin-top: 7px;">30片韩国JM急救补水</p>
+        <p id="f7">面膜女美白祛痘水光</p>
+        <p id="f8">¥133</p>
       </div>
     </div>
   </div>
 </template>
-<style lang="scss">
-.con_right {
-  width: 999px;
-  height: 549px;
-  // background: green;
-  border-left: 1px solid gray;
-  .con_title {
-    width: 100%;
-    height: 50px;
-    background: rgb(20, 20, 20);
-    border-bottom: 1px solid gray;
-    .stsy {
-      font-size: 15px;
-      width: 100px;
-      line-height: 50px;
-      color: white;
-      margin-left: 20px;
-    }
-  }
-  .con_con {
-    width: 100%;
-    height: 498px;
-    // background: yellow;
-    .con_con_top {
-      width: 100%;
-      height: 200px;
-      background: rgb(20, 20, 20);
-      // background: green;
-      border-bottom: 1px solid gray;
-      .top_left {
-        width: 330px;
-        height: 199px;
-        // background: yellow;
-        display: flex;
-        align-items: center;
-        .tu {
-          width: 66px;
-          height: 65px;
-          img {
-            width: 66px;
-            height: 65px;
-          }
-        }
-        .zi {
-          width: 234px;
-          height: 134px;
-          // background: pink;
-          font-size: 12px;
-          line-height: 40px;
-          text-align: left;
-          margin-left: 20px;
-          color: white;
-        }
-      }
-    }
-  }
+<style scoped>
+.f1 {
+  width: 1000px;
+  height: 680px;
+  background-color: rgb(245, 245, 245);
+}
+.f2 {
+  width: 1000px;
+  height: 680px;
+  margin: 0 auto;
+}
+.f4 {
+  width: 236px;
+  height: 302px;
+  float: left;
+}
+.f5 {
+  width: 237px;
+  height: 302px;
+  float: left;
+  margin-left: 11px;
+  background-color: white;
+}
+#f6 {
+  width: 237px;
+  height: 182px;
+  float: left;
+  margin-top: 25px;
+}
+#f7 {
+  width: 145px;
+  height: 20px;
+  float: left;
+  color: black;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 40px;
+}
+#f8 {
+  width: 55px;
+  height: 20px;
+  float: left;
+  color: red;
+  margin-left: 90px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
 }
 </style>
